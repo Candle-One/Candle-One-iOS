@@ -1,2 +1,2 @@
-# Candle-One-iOS
-촛불하나 iOS 레포
+# Dieary-iOS
+Dieary iOS 레포
