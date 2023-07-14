@@ -11,6 +11,7 @@
 		903264982A60D71D00AC3E86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903264972A60D71D00AC3E86 /* ContentView.swift */; };
 		9032649A2A60D71E00AC3E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903264992A60D71E00AC3E86 /* Assets.xcassets */; };
 		9032649D2A60D71E00AC3E86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9032649C2A60D71E00AC3E86 /* Preview Assets.xcassets */; };
+		903264A62A61AD1200AC3E86 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903264A52A61AD1200AC3E86 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		903264972A60D71D00AC3E86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		903264992A60D71E00AC3E86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9032649C2A60D71E00AC3E86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		903264A52A61AD1200AC3E86 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +53,8 @@
 		903264942A60D71D00AC3E86 /* Dieary-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				903264952A60D71D00AC3E86 /* Dieary_iOSApp.swift */,
-				903264972A60D71D00AC3E86 /* ContentView.swift */,
-				903264992A60D71E00AC3E86 /* Assets.xcassets */,
-				9032649B2A60D71E00AC3E86 /* Preview Content */,
+				903264A42A61A74B00AC3E86 /* Sources */,
+				903264A32A61A73700AC3E86 /* Resources */,
 			);
 			path = "Dieary-iOS";
 			sourceTree = "<group>";
@@ -65,6 +65,25 @@
 				9032649C2A60D71E00AC3E86 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		903264A32A61A73700AC3E86 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				903264992A60D71E00AC3E86 /* Assets.xcassets */,
+				903264A52A61AD1200AC3E86 /* Colors.swift */,
+				9032649B2A60D71E00AC3E86 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		903264A42A61A74B00AC3E86 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				903264952A60D71D00AC3E86 /* Dieary_iOSApp.swift */,
+				903264972A60D71D00AC3E86 /* ContentView.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				903264982A60D71D00AC3E86 /* ContentView.swift in Sources */,
+				903264A62A61AD1200AC3E86 /* Colors.swift in Sources */,
 				903264962A60D71D00AC3E86 /* Dieary_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +286,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Dieary-iOS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -294,7 +313,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Dieary-iOS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
