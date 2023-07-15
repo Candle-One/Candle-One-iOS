@@ -1,7 +1,6 @@
 import SwiftUI
 
 public extension Color {
-    static let white: Color = Color("White")
     static let background: Color = Color("Background")
     static let light: Color = Color("Light")
     struct Purple { }
