@@ -8,19 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		903264962A60D71D00AC3E86 /* Dieary_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903264952A60D71D00AC3E86 /* Dieary_iOSApp.swift */; };
-		903264982A60D71D00AC3E86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903264972A60D71D00AC3E86 /* ContentView.swift */; };
 		9032649A2A60D71E00AC3E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903264992A60D71E00AC3E86 /* Assets.xcassets */; };
 		9032649D2A60D71E00AC3E86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9032649C2A60D71E00AC3E86 /* Preview Assets.xcassets */; };
 		903264A62A61AD1200AC3E86 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903264A52A61AD1200AC3E86 /* Colors.swift */; };
+		903264A82A62F6A800AC3E86 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903264A72A62F6A800AC3E86 /* Images.swift */; };
+		903264C82A62FA1200AC3E86 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 903264BF2A62FA1100AC3E86 /* Pretendard-Thin.otf */; };
+		903264C92A62FA1200AC3E86 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 903264C02A62FA1100AC3E86 /* Pretendard-Light.otf */; };
+		903264CA2A62FA1200AC3E86 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 903264C12A62FA1100AC3E86 /* Pretendard-Black.otf */; };
+		903264CB2A62FA1200AC3E86 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 903264C22A62FA1100AC3E86 /* Pretendard-Regular.otf */; };
+		903264CC2A62FA1200AC3E86 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 903264C32A62FA1100AC3E86 /* Pretendard-ExtraBold.otf */; };
+		903264CD2A62FA1200AC3E86 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 903264C42A62FA1100AC3E86 /* Pretendard-SemiBold.otf */; };
+		903264CE2A62FA1200AC3E86 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 903264C52A62FA1200AC3E86 /* Pretendard-Bold.otf */; };
+		903264CF2A62FA1200AC3E86 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 903264C62A62FA1200AC3E86 /* Pretendard-ExtraLight.otf */; };
+		903264D02A62FA1200AC3E86 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 903264C72A62FA1200AC3E86 /* Pretendard-Medium.otf */; };
+		903264D22A62FA3300AC3E86 /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903264D12A62FA3300AC3E86 /* LockView.swift */; };
+		903264D52A62FBDC00AC3E86 /* DiearyFontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903264D42A62FBDC00AC3E86 /* DiearyFontStyle.swift */; };
+		903264D72A62FC3100AC3E86 /* DiearyFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903264D62A62FC3100AC3E86 /* DiearyFont.swift */; };
+		903264DC2A63085D00AC3E86 /* View+DiearyBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903264DB2A63085D00AC3E86 /* View+DiearyBackground.swift */; };
+		903264DE2A630CD500AC3E86 /* LockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903264DD2A630CD500AC3E86 /* LockViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		903264922A60D71D00AC3E86 /* Dieary-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dieary-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		903264952A60D71D00AC3E86 /* Dieary_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dieary_iOSApp.swift; sourceTree = "<group>"; };
-		903264972A60D71D00AC3E86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		903264992A60D71E00AC3E86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9032649C2A60D71E00AC3E86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		903264A52A61AD1200AC3E86 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		903264A72A62F6A800AC3E86 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		903264BF2A62FA1100AC3E86 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		903264C02A62FA1100AC3E86 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		903264C12A62FA1100AC3E86 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		903264C22A62FA1100AC3E86 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		903264C32A62FA1100AC3E86 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		903264C42A62FA1100AC3E86 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		903264C52A62FA1200AC3E86 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		903264C62A62FA1200AC3E86 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		903264C72A62FA1200AC3E86 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		903264D12A62FA3300AC3E86 /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
+		903264D32A62FA7300AC3E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		903264D42A62FBDC00AC3E86 /* DiearyFontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiearyFontStyle.swift; sourceTree = "<group>"; };
+		903264D62A62FC3100AC3E86 /* DiearyFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiearyFont.swift; sourceTree = "<group>"; };
+		903264DB2A63085D00AC3E86 /* View+DiearyBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+DiearyBackground.swift"; sourceTree = "<group>"; };
+		903264DD2A630CD500AC3E86 /* LockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +82,7 @@
 		903264942A60D71D00AC3E86 /* Dieary-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				903264D32A62FA7300AC3E86 /* Info.plist */,
 				903264A42A61A74B00AC3E86 /* Sources */,
 				903264A32A61A73700AC3E86 /* Resources */,
 			);
@@ -70,8 +100,12 @@
 		903264A32A61A73700AC3E86 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				903264AC2A62F9C900AC3E86 /* Font */,
 				903264992A60D71E00AC3E86 /* Assets.xcassets */,
 				903264A52A61AD1200AC3E86 /* Colors.swift */,
+				903264A72A62F6A800AC3E86 /* Images.swift */,
+				903264D62A62FC3100AC3E86 /* DiearyFont.swift */,
+				903264D42A62FBDC00AC3E86 /* DiearyFontStyle.swift */,
 				9032649B2A60D71E00AC3E86 /* Preview Content */,
 			);
 			path = Resources;
@@ -80,10 +114,60 @@
 		903264A42A61A74B00AC3E86 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				903264952A60D71D00AC3E86 /* Dieary_iOSApp.swift */,
-				903264972A60D71D00AC3E86 /* ContentView.swift */,
+				903264DA2A63084E00AC3E86 /* Extension */,
+				903264AA2A62F81900AC3E86 /* Scene */,
+				903264A92A62F7F800AC3E86 /* Appliaction */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		903264A92A62F7F800AC3E86 /* Appliaction */ = {
+			isa = PBXGroup;
+			children = (
+				903264952A60D71D00AC3E86 /* Dieary_iOSApp.swift */,
+			);
+			path = Appliaction;
+			sourceTree = "<group>";
+		};
+		903264AA2A62F81900AC3E86 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				903264AB2A62F87B00AC3E86 /* Lock */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		903264AB2A62F87B00AC3E86 /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+				903264D12A62FA3300AC3E86 /* LockView.swift */,
+				903264DD2A630CD500AC3E86 /* LockViewModel.swift */,
+			);
+			path = Lock;
+			sourceTree = "<group>";
+		};
+		903264AC2A62F9C900AC3E86 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				903264C12A62FA1100AC3E86 /* Pretendard-Black.otf */,
+				903264C52A62FA1200AC3E86 /* Pretendard-Bold.otf */,
+				903264C32A62FA1100AC3E86 /* Pretendard-ExtraBold.otf */,
+				903264C62A62FA1200AC3E86 /* Pretendard-ExtraLight.otf */,
+				903264C02A62FA1100AC3E86 /* Pretendard-Light.otf */,
+				903264C72A62FA1200AC3E86 /* Pretendard-Medium.otf */,
+				903264C22A62FA1100AC3E86 /* Pretendard-Regular.otf */,
+				903264C42A62FA1100AC3E86 /* Pretendard-SemiBold.otf */,
+				903264BF2A62FA1100AC3E86 /* Pretendard-Thin.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		903264DA2A63084E00AC3E86 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				903264DB2A63085D00AC3E86 /* View+DiearyBackground.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,8 +228,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				903264C82A62FA1200AC3E86 /* Pretendard-Thin.otf in Resources */,
+				903264CB2A62FA1200AC3E86 /* Pretendard-Regular.otf in Resources */,
+				903264CF2A62FA1200AC3E86 /* Pretendard-ExtraLight.otf in Resources */,
+				903264CC2A62FA1200AC3E86 /* Pretendard-ExtraBold.otf in Resources */,
+				903264CD2A62FA1200AC3E86 /* Pretendard-SemiBold.otf in Resources */,
+				903264C92A62FA1200AC3E86 /* Pretendard-Light.otf in Resources */,
 				9032649D2A60D71E00AC3E86 /* Preview Assets.xcassets in Resources */,
 				9032649A2A60D71E00AC3E86 /* Assets.xcassets in Resources */,
+				903264CE2A62FA1200AC3E86 /* Pretendard-Bold.otf in Resources */,
+				903264CA2A62FA1200AC3E86 /* Pretendard-Black.otf in Resources */,
+				903264D02A62FA1200AC3E86 /* Pretendard-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,8 +249,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				903264982A60D71D00AC3E86 /* ContentView.swift in Sources */,
+				903264DC2A63085D00AC3E86 /* View+DiearyBackground.swift in Sources */,
+				903264A82A62F6A800AC3E86 /* Images.swift in Sources */,
+				903264D22A62FA3300AC3E86 /* LockView.swift in Sources */,
+				903264DE2A630CD500AC3E86 /* LockViewModel.swift in Sources */,
+				903264D52A62FBDC00AC3E86 /* DiearyFontStyle.swift in Sources */,
 				903264A62A61AD1200AC3E86 /* Colors.swift in Sources */,
+				903264D72A62FC3100AC3E86 /* DiearyFont.swift in Sources */,
 				903264962A60D71D00AC3E86 /* Dieary_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +386,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dieary-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -315,6 +414,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dieary-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
