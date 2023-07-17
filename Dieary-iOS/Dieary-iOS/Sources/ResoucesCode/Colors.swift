@@ -7,6 +7,7 @@ public extension Color {
     struct Gray { }
     struct Sub { }
     struct Text { }
+    struct Gradient { }
 }
 
 public extension Color.Purple {
@@ -30,4 +31,9 @@ public extension Color.Text {
     static let text1: Color = Color("Text 1")
     static let text2: Color = Color("Text 2")
     static let text3: Color = Color("Text 3")
+}
+
+public extension Color.Gradient {
+    static let gradient1: Color = Color("Gradient 1")
+    static let gradient2: Color = Color("Gradient 2")
 }

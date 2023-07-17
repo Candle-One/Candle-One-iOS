@@ -24,8 +24,23 @@
 		903264D22A62FA3300AC3E86 /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903264D12A62FA3300AC3E86 /* LockView.swift */; };
 		903264D52A62FBDC00AC3E86 /* DiearyFontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903264D42A62FBDC00AC3E86 /* DiearyFontStyle.swift */; };
 		903264D72A62FC3100AC3E86 /* DiearyFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903264D62A62FC3100AC3E86 /* DiearyFont.swift */; };
-		903264DC2A63085D00AC3E86 /* View+DiearyBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903264DB2A63085D00AC3E86 /* View+DiearyBackground.swift */; };
+		903264DC2A63085D00AC3E86 /* View+diearyBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903264DB2A63085D00AC3E86 /* View+diearyBackground.swift */; };
 		903264DE2A630CD500AC3E86 /* LockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903264DD2A630CD500AC3E86 /* LockViewModel.swift */; };
+		903264E02A6311B800AC3E86 /* View+navigate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903264DF2A6311B800AC3E86 /* View+navigate.swift */; };
+		903264E32A63124600AC3E86 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903264E22A63124600AC3E86 /* HomeView.swift */; };
+		903264E52A63125100AC3E86 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903264E42A63125100AC3E86 /* HomeViewModel.swift */; };
+		906603042A642719009DFB3D /* View+purpleGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906603032A642719009DFB3D /* View+purpleGradient.swift */; };
+		906603092A64FEFA009DFB3D /* DiearyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906603082A64FEFA009DFB3D /* DiearyButton.swift */; };
+		9066030B2A650248009DFB3D /* DiearyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9066030A2A650248009DFB3D /* DiearyButtonStyle.swift */; };
+		9066030E2A650681009DFB3D /* View+backButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9066030D2A650681009DFB3D /* View+backButton.swift */; };
+		906603112A6506DB009DFB3D /* EmotionSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906603102A6506DB009DFB3D /* EmotionSelectionView.swift */; };
+		906603132A6506E4009DFB3D /* EmotionSelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906603122A6506E4009DFB3D /* EmotionSelectionViewModel.swift */; };
+		906603152A650AFE009DFB3D /* EmotionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906603142A650AFE009DFB3D /* EmotionType.swift */; };
+		9066032B2A652363009DFB3D /* WriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9066032A2A652363009DFB3D /* WriteView.swift */; };
+		9066032D2A652368009DFB3D /* WriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9066032C2A652368009DFB3D /* WriteViewModel.swift */; };
+		9066032F2A652597009DFB3D /* DiearyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9066032E2A652597009DFB3D /* DiearyTextField.swift */; };
+		906603312A652812009DFB3D /* DiearyTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906603302A652812009DFB3D /* DiearyTextEditor.swift */; };
+		906603362A657C63009DFB3D /* CompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906603352A657C63009DFB3D /* CompleteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,8 +63,23 @@
 		903264D32A62FA7300AC3E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		903264D42A62FBDC00AC3E86 /* DiearyFontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiearyFontStyle.swift; sourceTree = "<group>"; };
 		903264D62A62FC3100AC3E86 /* DiearyFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiearyFont.swift; sourceTree = "<group>"; };
-		903264DB2A63085D00AC3E86 /* View+DiearyBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+DiearyBackground.swift"; sourceTree = "<group>"; };
+		903264DB2A63085D00AC3E86 /* View+diearyBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+diearyBackground.swift"; sourceTree = "<group>"; };
 		903264DD2A630CD500AC3E86 /* LockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockViewModel.swift; sourceTree = "<group>"; };
+		903264DF2A6311B800AC3E86 /* View+navigate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+navigate.swift"; sourceTree = "<group>"; };
+		903264E22A63124600AC3E86 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		903264E42A63125100AC3E86 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		906603032A642719009DFB3D /* View+purpleGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+purpleGradient.swift"; sourceTree = "<group>"; };
+		906603082A64FEFA009DFB3D /* DiearyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiearyButton.swift; sourceTree = "<group>"; };
+		9066030A2A650248009DFB3D /* DiearyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiearyButtonStyle.swift; sourceTree = "<group>"; };
+		9066030D2A650681009DFB3D /* View+backButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+backButton.swift"; sourceTree = "<group>"; };
+		906603102A6506DB009DFB3D /* EmotionSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionSelectionView.swift; sourceTree = "<group>"; };
+		906603122A6506E4009DFB3D /* EmotionSelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionSelectionViewModel.swift; sourceTree = "<group>"; };
+		906603142A650AFE009DFB3D /* EmotionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionType.swift; sourceTree = "<group>"; };
+		9066032A2A652363009DFB3D /* WriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteView.swift; sourceTree = "<group>"; };
+		9066032C2A652368009DFB3D /* WriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewModel.swift; sourceTree = "<group>"; };
+		9066032E2A652597009DFB3D /* DiearyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiearyTextField.swift; sourceTree = "<group>"; };
+		906603302A652812009DFB3D /* DiearyTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiearyTextEditor.swift; sourceTree = "<group>"; };
+		906603352A657C63009DFB3D /* CompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +132,6 @@
 			children = (
 				903264AC2A62F9C900AC3E86 /* Font */,
 				903264992A60D71E00AC3E86 /* Assets.xcassets */,
-				903264A52A61AD1200AC3E86 /* Colors.swift */,
-				903264A72A62F6A800AC3E86 /* Images.swift */,
-				903264D62A62FC3100AC3E86 /* DiearyFont.swift */,
-				903264D42A62FBDC00AC3E86 /* DiearyFontStyle.swift */,
 				9032649B2A60D71E00AC3E86 /* Preview Content */,
 			);
 			path = Resources;
@@ -114,6 +140,8 @@
 		903264A42A61A74B00AC3E86 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				9066030C2A6504CF009DFB3D /* Components */,
+				906603012A64257E009DFB3D /* ResoucesCode */,
 				903264DA2A63084E00AC3E86 /* Extension */,
 				903264AA2A62F81900AC3E86 /* Scene */,
 				903264A92A62F7F800AC3E86 /* Appliaction */,
@@ -132,6 +160,10 @@
 		903264AA2A62F81900AC3E86 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				906603322A657C4B009DFB3D /* Complete */,
+				906603292A652358009DFB3D /* Write */,
+				9066030F2A6506AD009DFB3D /* EmotionSelection */,
+				903264E12A63123900AC3E86 /* Home */,
 				903264AB2A62F87B00AC3E86 /* Lock */,
 			);
 			path = Scene;
@@ -165,9 +197,70 @@
 		903264DA2A63084E00AC3E86 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				903264DB2A63085D00AC3E86 /* View+DiearyBackground.swift */,
+				903264DB2A63085D00AC3E86 /* View+diearyBackground.swift */,
+				903264DF2A6311B800AC3E86 /* View+navigate.swift */,
+				906603032A642719009DFB3D /* View+purpleGradient.swift */,
+				9066030D2A650681009DFB3D /* View+backButton.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		903264E12A63123900AC3E86 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				903264E22A63124600AC3E86 /* HomeView.swift */,
+				903264E42A63125100AC3E86 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		906603012A64257E009DFB3D /* ResoucesCode */ = {
+			isa = PBXGroup;
+			children = (
+				903264A52A61AD1200AC3E86 /* Colors.swift */,
+				903264A72A62F6A800AC3E86 /* Images.swift */,
+				903264D62A62FC3100AC3E86 /* DiearyFont.swift */,
+				903264D42A62FBDC00AC3E86 /* DiearyFontStyle.swift */,
+			);
+			path = ResoucesCode;
+			sourceTree = "<group>";
+		};
+		9066030C2A6504CF009DFB3D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				906603082A64FEFA009DFB3D /* DiearyButton.swift */,
+				9066030A2A650248009DFB3D /* DiearyButtonStyle.swift */,
+				9066032E2A652597009DFB3D /* DiearyTextField.swift */,
+				906603302A652812009DFB3D /* DiearyTextEditor.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9066030F2A6506AD009DFB3D /* EmotionSelection */ = {
+			isa = PBXGroup;
+			children = (
+				906603142A650AFE009DFB3D /* EmotionType.swift */,
+				906603102A6506DB009DFB3D /* EmotionSelectionView.swift */,
+				906603122A6506E4009DFB3D /* EmotionSelectionViewModel.swift */,
+			);
+			path = EmotionSelection;
+			sourceTree = "<group>";
+		};
+		906603292A652358009DFB3D /* Write */ = {
+			isa = PBXGroup;
+			children = (
+				9066032A2A652363009DFB3D /* WriteView.swift */,
+				9066032C2A652368009DFB3D /* WriteViewModel.swift */,
+			);
+			path = Write;
+			sourceTree = "<group>";
+		};
+		906603322A657C4B009DFB3D /* Complete */ = {
+			isa = PBXGroup;
+			children = (
+				906603352A657C63009DFB3D /* CompleteView.swift */,
+			);
+			path = Complete;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,14 +342,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				903264DC2A63085D00AC3E86 /* View+DiearyBackground.swift in Sources */,
+				903264DC2A63085D00AC3E86 /* View+diearyBackground.swift in Sources */,
+				906603132A6506E4009DFB3D /* EmotionSelectionViewModel.swift in Sources */,
+				9066032B2A652363009DFB3D /* WriteView.swift in Sources */,
+				906603112A6506DB009DFB3D /* EmotionSelectionView.swift in Sources */,
+				903264E52A63125100AC3E86 /* HomeViewModel.swift in Sources */,
+				9066032F2A652597009DFB3D /* DiearyTextField.swift in Sources */,
+				906603362A657C63009DFB3D /* CompleteView.swift in Sources */,
+				9066030E2A650681009DFB3D /* View+backButton.swift in Sources */,
+				9066032D2A652368009DFB3D /* WriteViewModel.swift in Sources */,
 				903264A82A62F6A800AC3E86 /* Images.swift in Sources */,
 				903264D22A62FA3300AC3E86 /* LockView.swift in Sources */,
+				903264E32A63124600AC3E86 /* HomeView.swift in Sources */,
 				903264DE2A630CD500AC3E86 /* LockViewModel.swift in Sources */,
 				903264D52A62FBDC00AC3E86 /* DiearyFontStyle.swift in Sources */,
+				903264E02A6311B800AC3E86 /* View+navigate.swift in Sources */,
+				906603042A642719009DFB3D /* View+purpleGradient.swift in Sources */,
+				9066030B2A650248009DFB3D /* DiearyButtonStyle.swift in Sources */,
+				906603152A650AFE009DFB3D /* EmotionType.swift in Sources */,
 				903264A62A61AD1200AC3E86 /* Colors.swift in Sources */,
 				903264D72A62FC3100AC3E86 /* DiearyFont.swift in Sources */,
+				906603312A652812009DFB3D /* DiearyTextEditor.swift in Sources */,
 				903264962A60D71D00AC3E86 /* Dieary_iOSApp.swift in Sources */,
+				906603092A64FEFA009DFB3D /* DiearyButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
