@@ -41,6 +41,9 @@
 		9066032F2A652597009DFB3D /* DiearyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9066032E2A652597009DFB3D /* DiearyTextField.swift */; };
 		906603312A652812009DFB3D /* DiearyTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906603302A652812009DFB3D /* DiearyTextEditor.swift */; };
 		906603362A657C63009DFB3D /* CompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906603352A657C63009DFB3D /* CompleteView.swift */; };
+		9066033D2A67D43E009DFB3D /* CompleteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9066033C2A67D43E009DFB3D /* CompleteViewModel.swift */; };
+		9066033F2A6954AB009DFB3D /* View+dismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9066033E2A6954AB009DFB3D /* View+dismissButton.swift */; };
+		906603422A695551009DFB3D /* RootPresentationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906603412A695551009DFB3D /* RootPresentationMode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +83,9 @@
 		9066032E2A652597009DFB3D /* DiearyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiearyTextField.swift; sourceTree = "<group>"; };
 		906603302A652812009DFB3D /* DiearyTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiearyTextEditor.swift; sourceTree = "<group>"; };
 		906603352A657C63009DFB3D /* CompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteView.swift; sourceTree = "<group>"; };
+		9066033C2A67D43E009DFB3D /* CompleteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteViewModel.swift; sourceTree = "<group>"; };
+		9066033E2A6954AB009DFB3D /* View+dismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+dismissButton.swift"; sourceTree = "<group>"; };
+		906603412A695551009DFB3D /* RootPresentationMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPresentationMode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +146,7 @@
 		903264A42A61A74B00AC3E86 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				906603402A69553C009DFB3D /* Environment */,
 				9066030C2A6504CF009DFB3D /* Components */,
 				906603012A64257E009DFB3D /* ResoucesCode */,
 				903264DA2A63084E00AC3E86 /* Extension */,
@@ -201,6 +208,7 @@
 				903264DF2A6311B800AC3E86 /* View+navigate.swift */,
 				906603032A642719009DFB3D /* View+purpleGradient.swift */,
 				9066030D2A650681009DFB3D /* View+backButton.swift */,
+				9066033E2A6954AB009DFB3D /* View+dismissButton.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -259,8 +267,17 @@
 			isa = PBXGroup;
 			children = (
 				906603352A657C63009DFB3D /* CompleteView.swift */,
+				9066033C2A67D43E009DFB3D /* CompleteViewModel.swift */,
 			);
 			path = Complete;
+			sourceTree = "<group>";
+		};
+		906603402A69553C009DFB3D /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				906603412A695551009DFB3D /* RootPresentationMode.swift */,
+			);
+			path = Environment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,6 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				906603422A695551009DFB3D /* RootPresentationMode.swift in Sources */,
 				903264DC2A63085D00AC3E86 /* View+diearyBackground.swift in Sources */,
 				906603132A6506E4009DFB3D /* EmotionSelectionViewModel.swift in Sources */,
 				9066032B2A652363009DFB3D /* WriteView.swift in Sources */,
@@ -352,11 +370,13 @@
 				9066030E2A650681009DFB3D /* View+backButton.swift in Sources */,
 				9066032D2A652368009DFB3D /* WriteViewModel.swift in Sources */,
 				903264A82A62F6A800AC3E86 /* Images.swift in Sources */,
+				9066033F2A6954AB009DFB3D /* View+dismissButton.swift in Sources */,
 				903264D22A62FA3300AC3E86 /* LockView.swift in Sources */,
 				903264E32A63124600AC3E86 /* HomeView.swift in Sources */,
 				903264DE2A630CD500AC3E86 /* LockViewModel.swift in Sources */,
 				903264D52A62FBDC00AC3E86 /* DiearyFontStyle.swift in Sources */,
 				903264E02A6311B800AC3E86 /* View+navigate.swift in Sources */,
+				9066033D2A67D43E009DFB3D /* CompleteViewModel.swift in Sources */,
 				906603042A642719009DFB3D /* View+purpleGradient.swift in Sources */,
 				9066030B2A650248009DFB3D /* DiearyButtonStyle.swift in Sources */,
 				906603152A650AFE009DFB3D /* EmotionType.swift in Sources */,

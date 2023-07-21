@@ -35,7 +35,11 @@ struct HomeView: View {
         }
         .padding(.horizontal, 17)
         .diearyBackground()
-        .navigate(to: EmotionSelectionView(), when: $viewModel.isNavigateEmotionSelection)
+        .navigate(
+            to: EmotionSelectionView()
+                .environment(\.rootPresentationMode, $viewModel.isNavigateEmotionSelection),
+            when: $viewModel.isNavigateEmotionSelection
+        )
     }
 
     @ViewBuilder

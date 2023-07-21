@@ -2,6 +2,7 @@ import SwiftUI
 
 public extension Color {
     static let background: Color = Color("Background")
+    static let listCell: Color = Color("ListCell")
     static let light: Color = Color("Light")
     struct Purple { }
     struct Gray { }

@@ -16,6 +16,9 @@ public struct DiearyImage: View {
         case surprised = "Surprised"
         case tired = "Tired"
         case candle = "Candle"
+        case raining = "Raining"
+        case complete = "Complete"
+        case pointOutFinger = "PointOutFinger"
     }
 
     private var image: Image

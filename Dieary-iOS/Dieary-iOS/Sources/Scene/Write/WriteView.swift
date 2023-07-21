@@ -6,6 +6,7 @@ struct WriteView: View {
         case content
     }
     @FocusState private var focusField: FocusField?
+    @Environment(\.rootPresentationMode) var rootPresentationMode
     @Environment(\.dismiss) var dismiss
     @StateObject var viewModel = WriteViewModel()
     @Binding var selectedEmotion: EmotionType?
@@ -40,8 +41,12 @@ struct WriteView: View {
         }
         .navigationBarItems(trailing: completeButton())
         .diearyBackground()
-        .BackButton(dismiss: dismiss)
-        .navigate(to: CompleteView(), when: $viewModel.isCompleteDidTapped)
+        .backButton(dismiss: dismiss)
+        .navigate(
+            to: CompleteView()
+                .environment(\.rootPresentationMode, rootPresentationMode),
+            when: $viewModel.isCompleteDidTapped
+        )
     }
 
     @ViewBuilder

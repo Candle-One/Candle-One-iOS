@@ -2,6 +2,7 @@ import SwiftUI
 
 struct EmotionSelectionView: View {
     @Environment(\.dismiss) var dismiss
+    @Environment(\.rootPresentationMode) var rootPresentationMode
     @StateObject var viewModel = EmotionSelectionViewModel()
     var body: some View {
         VStack(spacing: 5) {
@@ -41,8 +42,12 @@ struct EmotionSelectionView: View {
         }
         .padding(17)
         .diearyBackground()
-        .BackButton(dismiss: dismiss)
-        .navigate(to: WriteView(selectedEmotion: $viewModel.selectedEmotion), when: $viewModel.isNavigateWrite)
+        .backButton(dismiss: dismiss)
+        .navigate(
+            to: WriteView(selectedEmotion: $viewModel.selectedEmotion)
+                .environment(\.rootPresentationMode, rootPresentationMode),
+            when: $viewModel.isNavigateWrite
+        )
     }
 
     @ViewBuilder
